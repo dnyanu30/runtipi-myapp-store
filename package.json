@@ -12,10 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/node": "^22.14.1",
+    "@types/node": "^26.6.2",
     "arktype": "^2.1.29",
     "@types/js-yaml": "^4.0.9",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.2.0"
   },
   "dependencies": {
     "@runtipi/common": "^1.1.3",
