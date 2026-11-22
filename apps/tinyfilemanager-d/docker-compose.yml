@@ -8,7 +8,7 @@ services:
       #- ${APP_DATA_DIR}/data:/var/www/html/data
       - /:/var/www/html/data/host
       # Uncomment the line below if you want to override default settings with a custom config file
-      #- /home/dnyanu30/runtipi/app-data/store1/dockhand/data/data/stacks/tipi/tinyfilemanager/config.php:/var/www/html/config.php
+      - /home/dnyanu30/runtipi/app-data/dstore/tinyfilemanager-d/config.php:/var/www/html/config.php
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost/"]
       interval: 30s
