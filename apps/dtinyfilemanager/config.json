@@ -1,20 +1,24 @@
 {
-  "$schema": "https://runtipi.io",
-  "name": "Tiny File Manager",
+  "name": "mytinyfileserver",
   "id": "dtinyfilemanager",
   "available": true,
+  "short_desc": "Tiny",
+  "author": "D",
   "port": 8185,
-  "categories": ["utilities"],
-  "description": "Lightweight, single-file PHP web-based file manager.",
-  "short_desc": "Web-based PHP file manager",
-  "author": "prasathmani",
-  "source": "https://github.com/prasathmani/tinyfilemanager",
-  "website": "https://github.io",
+  "categories": [
+    "utilities"
+  ],
+  "description": "Tiny file server",
+  "tipi_version": 2,
+  "version": "v2.?",
+  "source": "https://github.com/traefik/whoami",
   "exposable": true,
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1745082405284,
+  "updated_at": 1745674974072,
   "dynamic_config": true,
-  "supported_architectures": ["amd64", "arm64"],
-  "version": "2.6?",
-  "tipi_version": 3,
-  "created_at": 1732280000000,
-  "updated_at": 1732280000000
+  "form_fields": []
 }
