@@ -2,8 +2,8 @@ services:
   tinyfilemanager:
     image: tinyfilemanager/tinyfilemanager:master
     restart: unless-stopped
-    environment:
-      TZ=${TZ}
+    #environment:
+      #TZ=${TZ}
     volumes:
       - ${APP_DATA_DIR}/data:/var/www/html/data
       # Uncomment the line below if you want to override default settings with a custom config file
