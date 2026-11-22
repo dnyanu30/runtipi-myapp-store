@@ -8,7 +8,7 @@
   "categories": ["utilities"],
   "description": "Tiny file server",
   "tipi_version": 1,
-  "version": "v2.6",
+  "version": "master",
   "source": "https://github.com/prasathmani/tinyfilemanager",
   "exposable": true,
   "supported_architectures": ["arm64", "amd64"],
