@@ -1,0 +1,19 @@
+{
+  "name": "Immich Gallary - Noddle",
+  "id": "immichgallary-d",
+  "available": true,
+  "short_desc": "ImmichGallary",
+  "author": "D",
+  "port": 2283,
+  "categories": ["utilities"],
+  "description": "Forked version of original Immich",
+  "tipi_version": 1,
+  "version": "v5",
+  "source": "https://github.com/open-noodle/gallery",
+  "exposable": true,
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1745082405284,
+  "updated_at": 1745674974072,
+  "dynamic_config": true,
+  "form_fields": []
+}
