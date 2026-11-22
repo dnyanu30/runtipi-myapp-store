@@ -1,6 +1,6 @@
 services:
   tinyfilemanager-d:
-    image: tinyfilemanager/tinyfilemanager:v2.6
+    image: tinyfilemanager/tinyfilemanager:master
     restart: unless-stopped
     #environment:
       #- TZ=${TZ}
