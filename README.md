@@ -1,4 +1,4 @@
-# Example App Store Template
+# It is still under development. This is my personal app store custom made for runtipi personal use. Use this as is if it works for your setup or only use for referece
 
 This repository serves as a template for creating your own custom app store for the Runtipi platform. Use this as a starting point to create and share your own collection of applications.
 
