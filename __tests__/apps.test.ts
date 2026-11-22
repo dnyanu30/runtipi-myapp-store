@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import { parseComposeJson } from "@runtipi/common/schemas";
-import jsyaml from "js-yaml";
+//import jsyaml from "js-yaml";
+import * as yaml from 'js-yaml';
 
 type FormField = {
   type: "random";
