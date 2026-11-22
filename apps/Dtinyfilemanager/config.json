@@ -1,7 +1,7 @@
 {
   "$schema": "https://runtipi.io",
   "name": "Tiny File Manager",
-  "id": "Dtinyfilemanager",
+  "id": "dtinyfilemanager",
   "available": true,
   "port": 8185,
   "categories": ["utilities"],
@@ -14,7 +14,7 @@
   "dynamic_config": true,
   "supported_architectures": ["amd64", "arm64"],
   "version": "2.6?",
-  "tipi_version": 1,
+  "tipi_version": 3,
   "created_at": 1732280000000,
   "updated_at": 1732280000000
 }
