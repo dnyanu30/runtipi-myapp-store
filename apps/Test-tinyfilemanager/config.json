@@ -7,7 +7,7 @@
   "port": 8382,
   "categories": ["utilities"],
   "description": "All access to the files",
-  "tipi_version": 4,
+  "tipi_version": 3,
   "version": "v2.3",
   "source": "https://github.com/prasathmani/tinyfilemanager",
   "exposable": true,
