@@ -1,0 +1,19 @@
+{
+  "name": "My Files Explore",
+  "id": "tinyfilemanager-d",
+  "available": true,
+  "short_desc": "Tiny",
+  "author": "D",
+  "port": 8085,
+  "categories": ["utilities"],
+  "description": "Tiny file server",
+  "tipi_version": 1,
+  "version": "v2.6",
+  "source": "https://github.com/prasathmani/tinyfilemanager",
+  "exposable": true,
+  "supported_architectures": ["arm64","amd64"],
+  "created_at": 1745082405284,
+  "updated_at": 1745674974072,
+  "dynamic_config": true,
+  "form_fields": []
+}

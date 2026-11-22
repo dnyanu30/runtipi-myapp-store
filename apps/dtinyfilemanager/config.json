@@ -1,17 +1,17 @@
 {
-  "name": "mytinyfileserver",
-  "id": "dtinyfilemanager",
+  "name": "File Explorer Server",
+  "id": "tinyfilemanager",
   "available": true,
-  "short_desc": "Tiny",
+  "short_desc": "TinyFileServer",
   "author": "D",
   "port": 8185,
   "categories": [
     "utilities"
   ],
-  "description": "Tiny file server",
-  "tipi_version": 2,
-  "version": "v2.?",
-  "source": "https://github.com/traefik/whoami",
+  "description": "My Tiny file server",
+  "tipi_version": 1,
+  "version": "v2.6",
+  "source": "https://github.com/prasathmani/tinyfilemanager",
   "exposable": true,
   "supported_architectures": [
     "arm64",
