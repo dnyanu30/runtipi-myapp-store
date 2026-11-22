@@ -1,8 +1,21 @@
 services:
-  whoami:
-    image: 'traefik/whoami:v1.11.0'
+  tinyfilemanager:
+    image: tinyfilemanager/tinyfilemanager:master
+    restart: unless-stopped
+    environment:
+      TZ=${TZ}
+    volumes:
+      - /:/var/www/html/data/host
+      # Uncomment the line below if you want to override default settings with a custom config file
+      #- /home/dnyanu30/runtipi/app-data/store1/dockhand/data/data/stacks/tipi/tinyfilemanager/config.php:/var/www/html/config.php
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
     x-runtipi:
       is_main: true
-      internal_port: '80'
+      internal_port: 80
+
 x-runtipi:
   schema_version: 2

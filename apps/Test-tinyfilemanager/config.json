@@ -1,17 +1,15 @@
 {
-  "name": "filemanager",
+  "name": "My Tiny File Manager",
   "id": "Test-tinyfilemanager",
   "available": true,
-  "short_desc": "Tiny Go server that prints os information and HTTP request to output.",
-  "author": "traefik",
+  "short_desc": "Manager files",
+  "author": "D",
   "port": 8382,
-  "categories": [
-    "utilities"
-  ],
-  "description": "Tiny Go webserver that prints OS information and HTTP request to output.",
-  "tipi_version": 2,
-  "version": "v1.11.0",
-  "source": "https://github.com/traefik/whoami",
+  "categories": ["utilities"],
+  "description": "All access to the files",
+  "tipi_version": 4,
+  "version": "v2.3?",
+  "source": "https://github.com/prasathmani/tinyfilemanager",
   "exposable": true,
   "supported_architectures": [
     "arm64",
