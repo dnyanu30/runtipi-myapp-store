@@ -1,1 +1,1 @@
-See the link for origianl github
+See the link for original github link
