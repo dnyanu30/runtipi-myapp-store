@@ -7,7 +7,7 @@
   "port": 2283,
   "categories": ["utilities"],
   "description": "Forked version of original Immich",
-  "tipi_version": 2,
+  "tipi_version": 3,
   "version": "v5",
   "source": "https://github.com/open-noodle/gallery",
   "exposable": true,
