@@ -20,6 +20,7 @@ services:
       - /mnt/SSD1/Pics/library:/data/library
       - /mnt/SSD1/AlbumTest:/SSD1
       #- /etc/localtime:/etc/localtime:ro
+    environment:
       - TZ=America/New_York
       # Use following and override for all pics
       #- /mnt/SSD1/Pics:/SSD1
