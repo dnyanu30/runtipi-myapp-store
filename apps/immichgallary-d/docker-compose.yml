@@ -16,9 +16,10 @@ services:
     #   service: cpu # set to one of [nvenc, quicksync, rkmpp, vaapi, vaapi-wsl] for accelerated transcoding
     volumes:
       # Do not edit the next line. If you want to change the media storage location on your system, edit the value of UPLOAD_LOCATION in the .env file
-      - /opt/appdata/immich-gallary/library:/data
-      - /etc/localtime:/etc/localtime:ro
+      - /opt/appdata/immich-gallary/data:/data
+      - /mnt/SSD1/Pics/library:/data/library
       - /mnt/SSD1/AlbumTest:/SSD1
+      - /etc/localtime:/etc/localtime:ro
       # Use following and override for all pics
       #- /mnt/SSD1/Pics:/SSD1
     depends_on:
