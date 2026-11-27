@@ -12,7 +12,7 @@ services:
       #- DARK_MODE=1
     x-runtipi:
       is_main: true
-      internal_port: 5800
+      internal_port: 80
 
 x-runtipi:
   schema_version: 2
