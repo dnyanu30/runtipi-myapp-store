@@ -3,7 +3,7 @@ services:
     image: jlesage/freefilesync:master
     restart: unless-stopped
     volumes:
-      - /docker/appdata/freefilesync:/config:rw
+      - /home/dnyanu30/runtipi/app-data/dstore/freefilesync-d:/config:rw
       - /opt/appdata/immich-gallary:/Source:r
       - /mnt/SSD1:Destination:rw
     environment:
