@@ -1,6 +1,6 @@
 services:
   freefilesync-d:
-    image: jlesage/docker-freefilesync:master
+    image: jlesage/freefilesync:latest
     restart: unless-stopped
     volumes:
       - /home/dnyanu30/runtipi/app-data/dstore/freefilesync-d:/config:rw
