@@ -1,6 +1,6 @@
 services:
   freefilesync-d:
-    image: jlesage/freefilesync
+    image: jlesage/freefilesync:master
     restart: unless-stopped
     volumes:
       - /docker/appdata/freefilesync:/config:rw
