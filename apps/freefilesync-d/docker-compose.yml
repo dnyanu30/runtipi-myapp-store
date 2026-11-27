@@ -5,7 +5,7 @@ services:
     volumes:
       - /home/dnyanu30/runtipi/app-data/dstore/freefilesync-d/data:/config:rw
       - /opt/appdata:/Source:r
-      #- /mnt/SSD1/All_Backup:Destination:rw
+      - /mnt/SSD1/All_Backup:/Destination:rw
     environment:
       - TZ=America/New_York
       - WEB_FILE_MANAGER=1
