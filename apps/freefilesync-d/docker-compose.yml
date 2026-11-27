@@ -4,12 +4,12 @@ services:
     restart: unless-stopped
     volumes:
       - /home/dnyanu30/runtipi/app-data/dstore/freefilesync-d/data:/config:rw
-      #- /opt/appdata/immich-gallary:/Source:r
+      #- /opt/appdata:/Source:r
       #- /mnt/SSD1:Destination:rw
     environment:
       - TZ=America/New_York
-      #- WEB_FILE_MANAGER=1
-      #- DARK_MODE=1
+      - WEB_FILE_MANAGER=1
+      - DARK_MODE=1
     x-runtipi:
       is_main: true
       internal_port: 5800
