@@ -1,11 +1,11 @@
 services:
   freefilesync-d:
-    image: jlesage/freefilesync:latest
+    image: jlesage/freefilesync
     restart: unless-stopped
     volumes:
       - /home/dnyanu30/runtipi/app-data/dstore/freefilesync-d:/config:rw
-      - /opt/appdata/immich-gallary:/Source:r
-      - /mnt/SSD1:Destination:rw
+      #- /opt/appdata/immich-gallary:/Source:r
+      #- /mnt/SSD1:Destination:rw
     #environment:
       #- TZ=America/New_York
       #- WEB_FILE_MANAGER=1
